@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="ano.css">
+	<script type="text/javascript" src="ano.js"></script>
+</head>
+<body>
+	<h1>Calculadora de anos</h1>
+	<main class="container">
+		<div class="input">
+			<!-- BIRTHDAY-->
+			<label for="birthdate"> Coloque sua data de aniversario</label>
+			<input type="date" id="birthdate"/>
+		</div>
+		<ul>
+			<!-- DISPLAY OUTPUT-->
+			<li><span id="years"></span>Anos</li>
+			<li><span id="months"></span>Meses</li>
+			<li><span id="days"></span>Dias</li>
+			<li><span id="hours"></span>Horas</li>
+			<li><span id="minutes"></span>Minutos</li>
+			<li><span id="seconds"></span>Segundos</li>
+		</ul>
+
+		<!-- BUTTONS-->
+		<div class="btns">
+			<button onclick="calculate()"> Calcular</button>
+			<button onclick="reset()">Reiniciar</button>
+		</div>
+	</main>
+</body>
+</html>
